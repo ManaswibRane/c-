@@ -29,6 +29,9 @@ int main()
     int l=4;
    vector<vector<int>> q= {{1,4},{2,5},{1,3},{3,4}};
   Solution S;
-  S.queryResults(l,q);
+   vector<int> ans=S.queryResults(l,q);
+   for(int & x: ans){
+    cout<<x<<endl;
+   }
     return 0;
 }
